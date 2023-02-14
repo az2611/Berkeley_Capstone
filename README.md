@@ -3,12 +3,14 @@
 ## Motivation  
 
 Claims processing in insurance refers to the procedures and activities involved in receiving, verifying, and resolving claims filed by policyholders. This process typically includes reviewing the claim details, assessing coverage, investigating the circumstances surrounding the claim, and determining the amount of compensation to be paid.  
-Claims classification is a common task in claims processing in the insurance. Every year millions of claims are processed and paid.
-Currenlty, claims are clasified by hand 
-
-
+Claims classification is a common task in claims processing, in this process claims are clasified by hand, in this case claims classification automation represents a unique opportunity to create efficiencies.
 
 ## Goal
+The goal of this project is to propose an alternative to claims classification using machine learning.
+
+## Data
+
+
 
 ## Approach
 
