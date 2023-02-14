@@ -8,7 +8,8 @@
 
 ## Preliminary Results
 
-c
+c  
+  
 |Model|Stemming|Vectorizer|Best Max Features|Best Stop Words|Score|Time|
 |---|---|---|---|---|---|---|
 |LogisticRegression\_l2|WordNetLemmatizer\(\)|cvect|1000||0\.8892561983471075|8\.88|
@@ -23,4 +24,5 @@ c
 |DecisionTree|WordNetLemmatizer\(\)|cvect|3000||0\.8231404958677686|3\.09|
 |NaiveBayes|WordNetLemmatizer\(\)|tdif|100||0\.7950413223140496|1\.32|
 |NaiveBayes|PorterStemmer\(\)|tdif|500|english|0\.7917355371900826|1\.31|
+  
 c
