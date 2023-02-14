@@ -57,5 +57,8 @@ By comparing model performance in terms of accuracy and speed we can see that Lo
 |NaiveBayes|PorterStemmer\(\)|tdif|100|english|0\.7762962962962963|1\.31|
   
 ### BERT
+
+When comparing the results obtained with Logistic Regression we can see that the Deep Learning approach yields better results. Something to note is that when reviewing the results on the test set, it is obvious that some of the classifications performed by hand present mistakes. For a second interation of this project these errors will be fixed. Hence, an improvement in accuracy will be expected with this model.
+
 Accuracy: 0.912396694214876  
 f1 score: 0.894
