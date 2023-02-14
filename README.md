@@ -11,7 +11,6 @@ The goal of this project is to propose an alternative to claims classification u
 ## Data
 The data set for this project consist of +2300 claims in 9 categories.
 
-https://colab.research.google.com/drive/1sgL_QUklWD7TBqVZl3nieM6Mbq79PgfV#scrollTo=RTt6zi48osQE&line=1&uniqifier=1
 
 
 ## Approach
@@ -22,18 +21,18 @@ c
   
 |Model|Stemming|Vectorizer|Best Max Features|Best Stop Words|Score|Time|
 |---|---|---|---|---|---|---|
-|LogisticRegression\_l2|WordNetLemmatizer\(\)|cvect|1000||0\.8892561983471075|8\.88|
-|LogisticRegression\_l2|PorterStemmer\(\)|cvect|2000||0\.8859504132231405|27\.86|
-|LogisticRegression\_l2|PorterStemmer\(\)|tdif|500||0\.8611570247933884|11\.7|
-|LogisticRegression\_l2|WordNetLemmatizer\(\)|tdif|500||0\.859504132231405|8\.23|
-|DecisionTree|PorterStemmer\(\)|tdif|4000||0\.8479338842975207|2\.37|
-|NaiveBayes|WordNetLemmatizer\(\)|cvect|500||0\.8462809917355372|1\.26|
-|NaiveBayes|PorterStemmer\(\)|cvect|500||0\.8429752066115702|1\.2|
-|DecisionTree|PorterStemmer\(\)|cvect|3000||0\.8314049586776859|1\.76|
-|DecisionTree|WordNetLemmatizer\(\)|tdif|500||0\.8297520661157025|3\.18|
-|DecisionTree|WordNetLemmatizer\(\)|cvect|3000||0\.8231404958677686|3\.09|
-|NaiveBayes|WordNetLemmatizer\(\)|tdif|100||0\.7950413223140496|1\.32|
-|NaiveBayes|PorterStemmer\(\)|tdif|500|english|0\.7917355371900826|1\.31|
+|LogisticRegression\_l2|PorterStemmer\(\)|cvect|500||0\.8637037037037038|12\.37|
+|LogisticRegression\_l2|WordNetLemmatizer\(\)|cvect|500||0\.8548148148148148|16\.09|
+|LogisticRegression\_l2|WordNetLemmatizer\(\)|tdif|500||0\.837037037037037|16\.62|
+|DecisionTree|PorterStemmer\(\)|cvect|2000||0\.8355555555555556|2\.04|
+|LogisticRegression\_l2|PorterStemmer\(\)|tdif|500||0\.8340740740740741|12\.5|
+|DecisionTree|WordNetLemmatizer\(\)|tdif|1000||0\.8192592592592592|2\.92|
+|DecisionTree|WordNetLemmatizer\(\)|cvect|3000||0\.8148148148148148|3\.22|
+|DecisionTree|PorterStemmer\(\)|tdif|500||0\.8118518518518518|2\.75|
+|NaiveBayes|WordNetLemmatizer\(\)|cvect|500|english|0\.8|1\.22|
+|NaiveBayes|PorterStemmer\(\)|cvect|500||0\.797037037037037|1\.22|
+|NaiveBayes|WordNetLemmatizer\(\)|tdif|500|english|0\.7822222222222223|1\.34|
+|NaiveBayes|PorterStemmer\(\)|tdif|100|english|0\.7762962962962963|1\.31|
   
 ### BERT
 Accuracy: 0.912396694214876
