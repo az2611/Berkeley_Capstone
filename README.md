@@ -9,9 +9,19 @@ Claims classification is a common task in claims processing, in this process cla
 The goal of this project is to propose an alternative to claims classification using machine learning.
 
 ## Data
-The data set for this project consist of +2300 claims in 9 categories.
+The data set for this project consist of +2300 claims in 9 categories. Data was labeled manually and is part of a research project aimed to better understand claims data.
 
-
+|Class|Description|label|
+|---|---|---|
+|Auto-related|233|233|
+|Damage|192|192|
+|Fell|509|509|
+|Fire|44|44|
+|Flood|62|62|
+|Injury|842|842|
+|Occupational disease/illness|146|146|
+|Pollution|62|62|
+|Water|157|157|
 
 ## Approach
 
