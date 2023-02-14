@@ -1,4 +1,4 @@
-# Berkeley_Capstone
+# Capstone - Insurance Claims Classification
 
 ## Motivation
 
