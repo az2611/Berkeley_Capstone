@@ -23,7 +23,13 @@ The data set for this project consist of +2300 claims in 9 categories. Data was 
 |Pollution|62|62|
 |Water|157|157|
 
-## Approach
+## Approach  
+
+In order to consider each of these components, you should make use of the Pipeline and GridSearchCV objects in scikitlearn to try different combinations of vectorizers with different estimators. For each of these, you also want to use the .cv_results_ to examine the time for the estimator to fit the data.
+
+Text preprocessing: As a pre-processing step, perform both stemming and lemmatizing to normalize your text before classifying. For each technique use both the CountVectorizer and TfidifVectorizer and use options for stop words and max features to prepare the text data for your estimator.
+
+Classification: Once you have prepared the text data with stemming lemmatizing techniques, consider LogisticRegression, DecisionTreeClassifier, and MultinomialNB as classification algorithms for the data. Compare their performance in terms of accuracy and speed.
 
 ## Preliminary Results
 
