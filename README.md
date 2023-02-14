@@ -58,4 +58,4 @@ By comparing model performance in terms of accuracy and speed we can see that Lo
   
 ### BERT
 Accuracy: 0.912396694214876  
-f1 score: 0.9109060191176175
+f1 score: 0.894
