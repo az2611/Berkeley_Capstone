@@ -35,5 +35,5 @@ c
 |NaiveBayes|PorterStemmer\(\)|tdif|100|english|0\.7762962962962963|1\.31|
   
 ### BERT
-Accuracy: 0.912396694214876
+Accuracy: 0.912396694214876  
 f1 score: 0.9109060191176175
