@@ -1,6 +1,12 @@
 # Capstone - Insurance Claims Classification
 
-## Motivation
+## Motivation  
+
+Claims processing in insurance refers to the procedures and activities involved in receiving, verifying, and resolving claims filed by policyholders. This process typically includes reviewing the claim details, assessing coverage, investigating the circumstances surrounding the claim, and determining the amount of compensation to be paid.  
+Claims classification is a common task in claims processing in the insurance. Every year millions of claims are processed and paid.
+Currenlty, claims are clasified by hand 
+
+
 
 ## Goal
 
