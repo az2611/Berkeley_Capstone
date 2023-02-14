@@ -25,15 +25,21 @@ The data set for this project consist of +2300 claims in 9 categories. Data was 
 
 ## Approach  
 
-In order to consider each of these components, you should make use of the Pipeline and GridSearchCV objects in scikitlearn to try different combinations of vectorizers with different estimators. For each of these, you also want to use the .cv_results_ to examine the time for the estimator to fit the data.
+In order to identify the best alternative for Claims Classification a Pipeline and GridSearchCV were created to try different combinations of vectorizers with different estimators. 
 
-Text preprocessing: As a pre-processing step, perform both stemming and lemmatizing to normalize your text before classifying. For each technique use both the CountVectorizer and TfidifVectorizer and use options for stop words and max features to prepare the text data for your estimator.
+The estimators evaluated are:
 
-Classification: Once you have prepared the text data with stemming lemmatizing techniques, consider LogisticRegression, DecisionTreeClassifier, and MultinomialNB as classification algorithms for the data. Compare their performance in terms of accuracy and speed.
+* Logistic Regression
+* Decision Tree 
+* Naive Bayes
+
+Text preprocessing: Data pre-processing includes performing both stemming and lemmatizing to normalize the text before classifying. For each technique it was used both the CountVectorizer and TfidifVectorizer, options for stop words and max features to prepare the text.
+
+Additionally, Claims Classification was perfomed using the BERT (Bidirectional Encoder Representations from Transformers) a popular deep learning model for natural language processing. It is a pre-trained language model that can be fine-tuned on specific downstream tasks using additional labeled data.
 
 ## Preliminary Results
 
-c  
+By comparing model performance in terms of accuracy and speed we can see that Logistic Regression provides an accuracy score on 0.8637.
   
 |Model|Stemming|Vectorizer|Best Max Features|Best Stop Words|Score|Time|
 |---|---|---|---|---|---|---|
