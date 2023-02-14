@@ -25,4 +25,5 @@ c
 |NaiveBayes|WordNetLemmatizer\(\)|tdif|100||0\.7950413223140496|1\.32|
 |NaiveBayes|PorterStemmer\(\)|tdif|500|english|0\.7917355371900826|1\.31|
   
-c
+### BERT
+Accuracy: 0.912396694214876
